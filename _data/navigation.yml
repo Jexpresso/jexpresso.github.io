@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Software"
+    url: https://github.com/smarras79/Jexpresso
+  - title: "Projects"
+    url: /projects/
+  - title: "People"
+    url: /people/
+  - title: "Jobs"
+    url: /openings/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Music"
+    url: /music/
+  - title: "Contact"
+    url: /contact/
