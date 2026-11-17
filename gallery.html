@@ -29,6 +29,7 @@
   <p>Simulations run with Jexpresso. Click an image to see it at full size. Most of these
   cases ship with the code; see the <a href="https://github.com/smarras79/Jexpresso#examples-available-in-this-branch">list of examples</a> in the repository.</p>
   <p class="jump">
+    <a href="#videos">Videos</a> |
     <a href="#atmosphere">Atmosphere and planets</a> |
     <a href="#compressible">Compressible flow</a> |
     <a href="#mhd">MHD</a> |
@@ -36,6 +37,20 @@
     <a href="#amr">Adaptive mesh refinement</a> |
     <a href="#solid">Solid mechanics</a>
   </p>
+
+  <h2 id="videos">Videos</h2>
+  <p class="section-note">Tropical clouds over 12.5 hours (GATE case) in a 60 km &times; 60 km domain,
+  with adaptive mesh refinement wherever there is cloud. Run on 40 MPI ranks and two GPUs.</p>
+  <div class="videos">
+    <figure>
+      <video controls loop muted playsinline preload="metadata" src="videos/p60l2_cloudtop_z12_20s.mp4"></video>
+      <figcaption>Cloud-top height seen from above, from grey-blue (low) to white (12 km)</figcaption>
+    </figure>
+    <figure>
+      <video controls loop muted playsinline preload="metadata" src="videos/p60l2_3d_sw_z12_20s.mp4"></video>
+      <figcaption>3-D view from the south-west: cloud water and ice in white, rain, snow and graupel in blue</figcaption>
+    </figure>
+  </div>
 
   <h2 id="atmosphere">Atmosphere and planets</h2>
   <p class="section-note">Clouds, mountain waves, rising bubbles and flows on a sphere, using the Euler and shallow water equations.</p>
