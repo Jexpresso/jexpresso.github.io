@@ -242,3 +242,23 @@ footer p {
 .top-link { margin-top: 28px; font-size: 15px; }
 
 header .name img { height: 24px; width: auto; margin-right: 8px; vertical-align: -5px; background: #fff; border-radius: 3px; padding: 1px; }
+
+/* videos on the gallery page */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px 16px;
+}
+
+.videos figure { margin: 0; }
+
+.videos video {
+  display: block;
+  width: 100%;
+  background: #000;
+  border-radius: 3px;
+}
+
+@media (max-width: 760px) {
+  .videos { grid-template-columns: 1fr; }
+}
