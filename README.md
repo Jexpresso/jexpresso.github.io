@@ -41,6 +41,12 @@ Add a line to the right section in `gallery.js`:
 
 The image has to be in the `assets` folder of the main Jexpresso repository.
 
+## Add a video to the gallery
+
+Put the `.mp4` file in the `videos` folder of this repository, then copy one of the
+`<figure>` blocks in the Videos section of `gallery.html` and change its `src` and caption.
+Keep videos short and small (a few MB). GitHub refuses files over 100 MB.
+
 ## Publish a change
 
 The site is deployed with GitHub Pages from the `master` branch. Anything pushed to `master`
