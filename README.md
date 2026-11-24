@@ -39,7 +39,13 @@ Add a line to the right section in `gallery.js`:
 ["file-name.png", "Caption for the image"],
 ```
 
-The image has to be in the `assets` folder of the main Jexpresso repository.
+A plain file name loads the image from the `assets` folder of the main Jexpresso repository.
+For an image that isn't there, put it in the `images` folder of this repository and start
+the name with `images/`:
+
+```js
+["images/file-name.png", "Caption for the image"],
+```
 
 ## Add a video to the gallery
 
