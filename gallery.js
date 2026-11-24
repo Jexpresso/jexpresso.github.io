@@ -1,5 +1,6 @@
 // Gallery images. To add one, add a line to the right section below.
-// Images live in the assets folder of the main Jexpresso repository.
+// Images live in the assets folder of the main Jexpresso repository, unless the
+// name starts with "images/", which means the image is stored on this website.
 var base = "https://raw.githubusercontent.com/smarras79/Jexpresso/master/assets/";
 
 var images = {
@@ -43,7 +44,7 @@ var images = {
 
 document.querySelectorAll(".gallery").forEach(function (box) {
   images[box.dataset.section].forEach(function (item) {
-    var url = base + item[0];
+    var url = item[0].indexOf("images/") === 0 ? item[0] : base + item[0];
     var fig = document.createElement("figure");
     fig.innerHTML = '<a href="' + url + '"><img loading="lazy" src="' + url + '" alt="' + item[1] + '"></a>' +
                     '<figcaption>' + item[1] + '</figcaption>';
