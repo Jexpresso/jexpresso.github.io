@@ -8,7 +8,7 @@ var images = {
     ["vorticity-grey-scale.gif", "Planet Saturn"],
     ["bomex.png", "Shallow cumuli with BOMEX conditions"],
     ["barbados.jpg", "Left: real shallow cumulus clouds near Barbados (photo: P. Blossey, U. Washington). Right: the same kind of clouds simulated with BOMEX conditions."],
-    ["images/bomex-longwave-heating.webp", "Barbados Oceanographic and Meteorological Experiment (BOMEX)"],
+    ["images/bomex-longwave-heating.png", "Barbados Oceanographic and Meteorological Experiment (BOMEX)"],
     ["dc.png", "Density current"],
     ["SWsphere-Galewki-visc1e5-36x36.jpg", "Shallow water on a spherical shell"],
     ["thetaTracersMeshUnstr.png", "2D Euler equations with buoyancy and two passive tracers"],
